@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "email": "hamza@gmail.com",
+      "password": "$2a$10$tE6f2IFij8avPPSoTBnKCusd.qlOUznCx1HheLtBOcPIOcwuKFoUa",
+      "name": "ayari",
+      "username": "hamza",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "email": "amine@gmail.com",
+      "password": "$2a$10$cKJoJzfVBUjQ4RnIeWFFjOfoo6ic5JJFxWOufxumRWDmuctESuqQ2",
+      "name": "lazzez",
+      "username": "amine",
+      "role": "ROLE_ADMIN",
+      "id": 2
+    }
+  ],
+  "posts": []
+}
