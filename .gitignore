@@ -5,11 +5,19 @@
 /tmp
 /out-tsc
 /bazel-out
+/.angular/cache
+/.angular/*
 
-# Node
+# Node modules
 /node_modules
-npm-debug.log
-yarn-error.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+logs
+*.log.*
 
 # IDEs and editors
 .idea/
@@ -26,17 +34,37 @@ yarn-error.log
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-.history/*
+
+# Test coverage
+/coverage/
+
+# Production builds
+/build/
+
+# Environment variables
+.env
+.env.*.local
 
 # Miscellaneous
-/.angular/cache
 .sass-cache/
 /connect.lock
-/coverage
 /libpeerconnection.log
 testem.log
 /typings
+*.tgz
+*.gzip
+.history/
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Angular-specific
+.angular/
+.angular/cache/
+
+# Large assets (optional, depending on your project)
+/assets/**/*.mp4
+/assets/**/*.avi
+/assets/**/*.mov
+/assets/**/*.zip
